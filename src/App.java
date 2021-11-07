@@ -8,7 +8,7 @@ public class App {
         System.out.println("Escriba via de Origen");
         int Origen = via.nextInt();
         System.out.println("Escriba via de Llegada");
-        int Llegada = via.nextInt();
+        int Llegada = via.nextInt("asdafafasdasdasdas");
         
 
 
