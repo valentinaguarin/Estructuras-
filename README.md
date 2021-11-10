@@ -1,18 +1,25 @@
-## Getting Started
+PROBLEMA:
+ESTUDIO DE INTENCIÓN DE VIAJE
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+Como parte fundamental de la planeación de obras de infraestructura vial, 
+se encuentran los estudios de intención de 
+viaje, que son básicamente un registro de los vehículos que transitan por una
+vía y mediante el cual se pueden registrar datos relevantes para su posterior
+análisis.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Suponga que trabaja para una compañía
+que se especializa en la toma y el análisis de datos para la planeación de
+obras civiles. La empresa debe elaborar un software que le permita a los
+trabajadores de campo (encuestadores, recolectores u operadores) reemplazar
+el papel y llevar a cabo sus registros para los estudios de intención de viaje
+en dicho software.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para probar el sistema, la empresa
+decide implementarlo en la recolección de datos de una intersección simple que
+corresponde a la Carrera 43A con la Calle 37 Sur en el municipio de Envigado
+Antioquia.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
