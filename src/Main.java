@@ -8,6 +8,9 @@ public class Main {
         ArrayList<String> vehiculos = new ArrayList<String>();
         String vehiculo, origen, destino, registro;
 
+
+
+        
         do{
             System.out.println("Ingrese el tipo de vehiculo, escriba A para automovil,C para camión  M para motocicleta ");
             vehiculo = leer.next();
