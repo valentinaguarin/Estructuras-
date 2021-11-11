@@ -20,6 +20,7 @@ public class Main {
                 System.out.println("Ingrese destino");
                 destino = leer.next();
                 registro = vehiculo + origen + destino;
+                //System.out.println(miarray[0]);
 
                 vehiculos.add(registro);
             }
