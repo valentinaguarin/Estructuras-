@@ -9,7 +9,6 @@ public class Main {
         String vehiculo, origen, destino, registro;
 
 
-
         
         do{
             System.out.println("Ingrese el tipo de vehiculo, escriba A para automovil,C para camión  M para motocicleta ");
@@ -19,13 +18,17 @@ public class Main {
                 //Debemos colocar la condicion 1-2 o 3
                 System.out.println("Ingrese origen");
                 origen = leer.next();
-                //Debemos colocar la condicion 1-2 o 3
-                System.out.println("Ingrese destino");
-                destino = leer.next();
-                registro = vehiculo + origen + destino;
-                //System.out.println(miarray[0]);
-
-                vehiculos.add(registro);
+                if (origen.equals("1") || origen.equals("2") || origen.equals("3")) {
+                    //Debemos colocar la condicion 1-2 o 3
+                    System.out.println("Ingrese destino");
+                    destino = leer.next();
+                    if (origen.equals("1") && destino.equals("1") || origen.equals("1") && destino.equals("2")
+                            || origen.equals("1") && destino.equals("3") || origen.equals("2") && destino.equals("2")
+                            || origen.equals("3") && destino.equals("3") || origen.equals("3") && destino.equals("1")){
+                        registro = vehiculo + origen + destino;
+                        vehiculos.add(registro);
+                    }
+                }
             }
         }while (vehiculo.equals("C") || vehiculo.equals("A")  || vehiculo.equals("M"));
         System.out.println("La cantidad de Vehiculos son" + vehiculos.size());
