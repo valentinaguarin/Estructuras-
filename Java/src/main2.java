@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class main {
+public class main2 {
     public static void main(String[] args) {
         System.out.println("Cuando finalice de ingresar los datos, digite cualquier valor diferente para terminar el programa");
         ArrayList<String> registroDatosTotales = new ArrayList<String>();
